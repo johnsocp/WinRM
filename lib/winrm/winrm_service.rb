@@ -21,7 +21,7 @@ module WinRM
   #   much everything comes through here first.
   class WinRMWebService
 
-    DEFAULT_TIMEOUT = 'PT60S'
+    DEFAULT_TIMEOUT = 'PT600S'
     DEFAULT_MAX_ENV_SIZE = 153600
     DEFAULT_LOCALE = 'en-US'
 
